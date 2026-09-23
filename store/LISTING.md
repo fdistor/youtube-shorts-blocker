@@ -166,3 +166,18 @@ Do not put keyword lists, competitor names, or unattributed testimonials in scre
 | Explicit **not published** note | Avoids implying a live CWS presence |
 
 When you publish, paste the short + detailed copy into the Dashboard, upload screenshots/promo tile, set category and English locale, and keep metadata accurate as the product evolves.
+
+---
+
+## Privacy policy
+
+Honest policy matching the shipped code: [`PRIVACY.md`](PRIVACY.md) (ON/OFF toggle in Chrome storage only; YouTube host permissions; no analytics, accounts, or data selling). Host a public HTTPS URL of that document before Dashboard submit.
+
+## Pack zip for upload
+
+```bash
+npm run pack
+# or: ./scripts/pack-extension.sh
+```
+
+Produces `dist/youtube-shorts-blocker-v<version>.zip` with extension files only (no `test/`, `.git`, or store drafts). See [`STORE_CHECKLIST.md`](STORE_CHECKLIST.md) for remaining human steps before publish.

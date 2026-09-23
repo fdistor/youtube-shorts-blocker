@@ -4,7 +4,8 @@
   "private": true,
   "description": "Chrome MV3 extension that blocks YouTube Shorts UI and navigation",
   "scripts": {
-    "test": "node test/run.mjs"
+    "test": "node test/run.mjs",
+    "pack": "bash scripts/pack-extension.sh"
   },
   "engines": {
     "node": ">=18"

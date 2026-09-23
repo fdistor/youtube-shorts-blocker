@@ -55,7 +55,8 @@ content.css
 shared/shorts-detect.js
 popup/
 icons/
-store/                 # CWS listing copy (LISTING.md, promo-copy.md)
+scripts/pack-extension.sh   # clean CWS upload zip
+store/                 # LISTING.md, PRIVACY.md, STORE_CHECKLIST.md, promo-copy.md
 test/fixtures/
 test/run.mjs
 package.json
@@ -70,9 +71,26 @@ README.md
 - `youtu.be` bare video IDs are normal watch links and are **not** blocked (only `/shorts/` paths).
 
 
+
+## Pack for Chrome Web Store upload
+
+Builds a zip with **extension files only** (manifest, JS/CSS, popup, icons, shared). Excludes `test/`, `.git`, `store/` drafts, and docs.
+
+```bash
+npm run pack
+# or:
+./scripts/pack-extension.sh
+```
+
+Output: `dist/youtube-shorts-blocker-v<version>.zip`. Load that zip (or the unpacked folder) in the Developer Dashboard—do **not** upload the whole git repo.
+
+## Privacy
+
+Honest privacy policy (storage toggle only; YouTube host access; no analytics): [`store/PRIVACY.md`](store/PRIVACY.md). Host a public URL of that policy before CWS submit.
+
 ## Chrome Web Store listing
 
-Listing copy, category, locale notes, screenshot shot list, and CWS SEO notes live in [`store/LISTING.md`](store/LISTING.md) (A/B name alternatives in [`store/promo-copy.md`](store/promo-copy.md)). **Not published** on the Chrome Web Store yet.
+Listing copy, category, locale notes, screenshot shot list, and CWS SEO notes live in [`store/LISTING.md`](store/LISTING.md) (A/B name alternatives in [`store/promo-copy.md`](store/promo-copy.md)). Remaining human submit steps: [`store/STORE_CHECKLIST.md`](store/STORE_CHECKLIST.md). **Not published** on the Chrome Web Store yet.
 
 ## License
 
