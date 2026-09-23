@@ -35,7 +35,7 @@
     if (params.get('ysb_blocked') !== 'shorts') return;
     const el = document.createElement('div');
     el.id = 'ysb-block-banner';
-    el.textContent = 'YouTube Shorts Blocker: Shorts navigation was blocked.';
+    el.textContent = 'Block YouTube Shorts: Shorts navigation was blocked.';
     (document.body || document.documentElement).appendChild(el);
     setTimeout(() => el.remove(), 4000);
   }

@@ -1,5 +1,5 @@
 /**
- * Zero-dependency self-test harness for YouTube Shorts Blocker.
+ * Zero-dependency self-test harness for Block YouTube Shorts.
  * Builds a minimal DOM from fixture HTML, runs shared/shorts-detect.js,
  * asserts Shorts nodes are hidden and non-Shorts remain.
  */

@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "YouTube Shorts Blocker",
+  "name": "Block YouTube Shorts",
   "version": "1.0.0",
   "description": "Hide and block YouTube Shorts on home, search, subscriptions, and watch. One-click toggle; stops /shorts/ links.",
   "permissions": ["storage", "webNavigation"],
@@ -15,7 +15,7 @@
   },
   "action": {
     "default_popup": "popup/popup.html",
-    "default_title": "YouTube Shorts Blocker",
+    "default_title": "Block YouTube Shorts",
     "default_icon": {
       "16": "icons/icon16.png",
       "32": "icons/icon32.png",

@@ -10,14 +10,14 @@ Policy reminder: do not keyword-stuff titles. Keep any single keyword natural an
 
 | Rank | Name | Chars | Notes |
 |---:|---|---:|---|
-| **1 (primary)** | YouTube Shorts Blocker | 22 | Brandable, matches manifest, strong intent match for “youtube shorts blocker / block youtube shorts” |
-| 2 | Block YouTube Shorts | 20 | More verb-led; very close to common search phrasing; slightly less “product name” feel |
+| **1 (primary)** | Block YouTube Shorts | 20 | Verb-led; matches manifest; strong intent match for “block youtube shorts” |
+| 2 | YouTube Shorts Blocker | 22 | Brandable noun-style alternative; strong “youtube shorts blocker” intent |
 | 3 | Hide YouTube Shorts | 19 | Matches “hide youtube shorts” queries; may read softer than “block” |
 | 4 | Shorts Blocker for YouTube | 26 | Emphasizes “for YouTube”; a bit more generic among “X for YouTube” titles |
 | 5 | YouTube Shorts Hider | 20 | Clear but less common verb than block/hide in competitor set |
 | — avoid — | Hide Block Remove YouTube Shorts… | — | Keyword stuffing — rejection / Keyword Spam risk |
 
-**Recommendation:** ship with **#1**. If search impressions stay weak after publish + indexing, try **#2** or **#3** as a single A/B change (name only), not a stuffed hybrid.
+**Recommendation:** ship with **#1** (**Block YouTube Shorts**). If search impressions stay weak after publish + indexing, try **#2** or **#3** as a single A/B change (name only), not a stuffed hybrid.
 
 ---
 

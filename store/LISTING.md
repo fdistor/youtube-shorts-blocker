@@ -1,4 +1,4 @@
-# Chrome Web Store listing — YouTube Shorts Blocker
+# Chrome Web Store listing — Block YouTube Shorts
 
 Copy fields below into the Chrome Web Store Developer Dashboard when you publish.
 **Status:** listing assets prepared in-repo; **not published** on the Chrome Web Store yet.
@@ -16,10 +16,10 @@ Official references (2025–2026 guidance):
 
 ## Recommended store item name
 
-**YouTube Shorts Blocker**
+**Block YouTube Shorts**
 
-- Matches `manifest.json` `"name"` (22 / 75 characters).
-- Clear, memorable, and includes the natural query terms *YouTube Shorts* + *Blocker*.
+- Matches `manifest.json` `"name"` (20 / 75 characters).
+- Verb-led and matches common search phrasing (*block youtube shorts*).
 - Avoid title stuffing (e.g. “Hide Block Remove Disable YouTube Shorts…”); that risks Keyword Spam rejection.
 
 See `store/promo-copy.md` for ranked A/B name alternatives.
@@ -158,7 +158,7 @@ Do not put keyword lists, competitor names, or unattributed testimonials in scre
 
 | Change | Why |
 |---|---|
-| Kept name **YouTube Shorts Blocker** | Already matches high-intent queries without stuffing; unique and memorable per Google’s title guidance |
+| Set name **Block YouTube Shorts** | Verb-led; matches high-intent “block youtube shorts” queries without stuffing; unique and memorable per Google’s title guidance |
 | Rewrote manifest / store **summary** | Lead with “Hide and block”, name key surfaces users care about, mention toggle + `/shorts/` stop—within 132 chars |
 | Added this **detailed description** | Benefit-first overview + feature list + explicit non-goals + plain-language permissions—keywords used in context only |
 | Category **Workflow & Planning** | Aligns with focus / stay-on-task use case after 2023 category revision |
@@ -180,4 +180,4 @@ npm run pack
 # or: ./scripts/pack-extension.sh
 ```
 
-Produces `dist/youtube-shorts-blocker-v<version>.zip` with extension files only (no `test/`, `.git`, or store drafts). See [`STORE_CHECKLIST.md`](STORE_CHECKLIST.md) for remaining human steps before publish.
+Produces `dist/block-youtube-shorts-v<version>.zip` with extension files only (no `test/`, `.git`, or store drafts). See [`STORE_CHECKLIST.md`](STORE_CHECKLIST.md) for remaining human steps before publish.

@@ -11,8 +11,8 @@ In-repo listing assets and a packable zip are ready. **Do not publish until the 
 | 3 | **Small promo tile 440×280** | Required graphic. Simple brand + “Hide & block Shorts”. Create in any image editor; not generated in this repo. |
 | 4 | **Privacy policy URL** | Host [`PRIVACY.md`](PRIVACY.md) somewhere public (GitHub Pages, raw GitHub URL that CWS accepts, or site page) and paste that HTTPS URL into the Dashboard privacy field. |
 | 5 | **Dashboard category** | Set primary category to **Workflow & Planning** (fallback: Tools). |
-| 6 | **Upload zip** | Build with `npm run pack` (or `./scripts/pack-extension.sh`), then upload `dist/youtube-shorts-blocker-v*.zip` in the Developer Dashboard. |
-| 7 | **Paste listing copy** | Short description + detailed description from [`LISTING.md`](LISTING.md); name **YouTube Shorts Blocker**; language **English (en)**. |
+| 6 | **Upload zip** | Build with `npm run pack` (or `./scripts/pack-extension.sh`), then upload `dist/block-youtube-shorts-v*.zip` in the Developer Dashboard. |
+| 7 | **Paste listing copy** | Short description + detailed description from [`LISTING.md`](LISTING.md); name **Block YouTube Shorts**; language **English (en)**. |
 | 8 | **Store icon** | Use `icons/icon128.png` (or a refined 128×128 mark). |
 | 9 | **Review & submit** | Complete permissions justifications if asked; submit for review. **Publishing is a human action**—do not automate publish. |
 
@@ -31,7 +31,7 @@ npm run pack
 ./scripts/pack-extension.sh
 ```
 
-Output: `dist/youtube-shorts-blocker-v<version>.zip` (gitignored via `*.zip` / keep `dist/` local).
+Output: `dist/block-youtube-shorts-v<version>.zip` (gitignored via `*.zip` / keep `dist/` local).
 
 ## Explicitly out of scope for automation
 

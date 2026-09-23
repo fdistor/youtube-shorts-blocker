@@ -1,8 +1,8 @@
-# Privacy Policy — YouTube Shorts Blocker
+# Privacy Policy — Block YouTube Shorts
 
 **Last updated:** 2026-09-23
 
-This privacy policy describes how the **YouTube Shorts Blocker** Chrome extension (“the Extension”) handles information.
+This privacy policy describes how the **Block YouTube Shorts** Chrome extension (“the Extension”) handles information.
 
 ## Summary
 

@@ -1,4 +1,4 @@
-# YouTube Shorts Blocker
+# Block YouTube Shorts
 
 Manifest V3 Chrome extension that hides YouTube Shorts across the YouTube UI and blocks navigation to `/shorts/` URLs. Works on `youtube.com`, `m.youtube.com`, and `youtu.be`.
 
@@ -82,7 +82,7 @@ npm run pack
 ./scripts/pack-extension.sh
 ```
 
-Output: `dist/youtube-shorts-blocker-v<version>.zip`. Load that zip (or the unpacked folder) in the Developer Dashboard—do **not** upload the whole git repo.
+Output: `dist/block-youtube-shorts-v<version>.zip`. Load that zip (or the unpacked folder) in the Developer Dashboard—do **not** upload the whole git repo.
 
 ## Privacy
 

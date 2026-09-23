@@ -7,7 +7,7 @@ cd "$ROOT"
 
 VERSION="$(node -p "JSON.parse(require('fs').readFileSync('manifest.json','utf8')).version")"
 OUT_DIR="${ROOT}/dist"
-OUT_ZIP="${OUT_DIR}/youtube-shorts-blocker-v${VERSION}.zip"
+OUT_ZIP="${OUT_DIR}/block-youtube-shorts-v${VERSION}.zip"
 
 mkdir -p "$OUT_DIR"
 rm -f "$OUT_ZIP"
