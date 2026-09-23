@@ -1,0 +1,39 @@
+/* Hidden by content script; CSS backup for common Shorts surfaces */
+ytd-reel-shelf-renderer,
+ytm-reel-shelf-renderer,
+ytd-reel-item-renderer,
+ytd-shorts-lockup-view-model,
+ytm-shorts-lockup-view-model,
+[data-ysb-hidden="1"] {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  max-height: 0 !important;
+  overflow: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Guide / mini-guide Shorts entry when marked */
+ytd-guide-entry-renderer[data-ysb-hidden="1"],
+ytd-mini-guide-entry-renderer[data-ysb-hidden="1"],
+ytm-pivot-bar-item-renderer[data-ysb-hidden="1"] {
+  display: none !important;
+}
+
+/* In-page block banner when on a redirected shorts attempt */
+#ysb-block-banner {
+  position: fixed;
+  z-index: 999999;
+  left: 50%;
+  top: 24px;
+  transform: translateX(-50%);
+  background: #1a1a1a;
+  color: #fff;
+  border: 1px solid #f44336;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}

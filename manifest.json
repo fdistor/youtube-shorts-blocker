@@ -1,0 +1,52 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Shorts Blocker",
+  "version": "1.0.0",
+  "description": "Hides YouTube Shorts across home, search, subscriptions, watch, channels, and blocks /shorts/ navigation.",
+  "permissions": ["storage", "webNavigation"],
+  "host_permissions": [
+    "*://www.youtube.com/*",
+    "*://m.youtube.com/*",
+    "*://youtu.be/*",
+    "*://youtube.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "YouTube Shorts Blocker",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.youtube.com/*",
+        "*://m.youtube.com/*",
+        "*://youtu.be/*",
+        "*://youtube.com/*"
+      ],
+      "js": ["shared/shorts-detect.js", "content.js"],
+      "css": ["content.css"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["shared/shorts-detect.js"],
+      "matches": ["*://www.youtube.com/*", "*://m.youtube.com/*", "*://youtu.be/*", "*://youtube.com/*"]
+    }
+  ]
+}

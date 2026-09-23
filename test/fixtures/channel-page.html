@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html><body>
+  <ytd-c4-tabbed-header-renderer>
+    <div role="tablist">
+      <yt-tab-shape id="tab-home"><a href="/channel/UC123">Home</a></yt-tab-shape>
+      <yt-tab-shape id="tab-videos"><a href="/channel/UC123/videos">Videos</a></yt-tab-shape>
+      <yt-tab-shape id="tab-shorts" aria-label="Shorts"><a href="/channel/UC123/shorts">Shorts</a></yt-tab-shape>
+      <tp-yt-paper-tab id="paper-shorts"><a href="/@someone/shorts">Shorts</a></tp-yt-paper-tab>
+      <tp-yt-paper-tab id="paper-about"><a href="/@someone/about">About</a></tp-yt-paper-tab>
+    </div>
+  </ytd-c4-tabbed-header-renderer>
+  <ytd-rich-grid-renderer>
+    <ytd-rich-section-renderer id="channel-shorts-shelf">
+      <ytd-reel-shelf-renderer>
+        <span class="title">Shorts</span>
+        <a href="/shorts/ch1">Channel short</a>
+      </ytd-reel-shelf-renderer>
+    </ytd-rich-section-renderer>
+    <ytd-rich-item-renderer id="channel-video">
+      <a href="/watch?v=chvid">Channel video</a>
+    </ytd-rich-item-renderer>
+  </ytd-rich-grid-renderer>
+</body></html>

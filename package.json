@@ -1,0 +1,12 @@
+{
+  "name": "youtube-shorts-blocker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chrome MV3 extension that blocks YouTube Shorts UI and navigation",
+  "scripts": {
+    "test": "node test/run.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
