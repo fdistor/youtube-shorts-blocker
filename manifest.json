@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "YouTube Shorts Blocker",
   "version": "1.0.0",
-  "description": "Hides YouTube Shorts across home, search, subscriptions, watch, channels, and blocks /shorts/ navigation.",
+  "description": "Hide and block YouTube Shorts on home, search, subscriptions, and watch. One-click toggle; stops /shorts/ links.",
   "permissions": ["storage", "webNavigation"],
   "host_permissions": [
     "*://www.youtube.com/*",

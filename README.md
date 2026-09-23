@@ -55,6 +55,7 @@ content.css
 shared/shorts-detect.js
 popup/
 icons/
+store/                 # CWS listing copy (LISTING.md, promo-copy.md)
 test/fixtures/
 test/run.mjs
 package.json
@@ -67,6 +68,11 @@ README.md
 - Disabling the toggle does not always restore every already-hidden node until page reload.
 - Some experimental or A/B UI variants may use unfamiliar wrappers; the MutationObserver re-sweep mitigates most cases.
 - `youtu.be` bare video IDs are normal watch links and are **not** blocked (only `/shorts/` paths).
+
+
+## Chrome Web Store listing
+
+Listing copy, category, locale notes, screenshot shot list, and CWS SEO notes live in [`store/LISTING.md`](store/LISTING.md) (A/B name alternatives in [`store/promo-copy.md`](store/promo-copy.md)). **Not published** on the Chrome Web Store yet.
 
 ## License
 
